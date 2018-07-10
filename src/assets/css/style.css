@@ -218,6 +218,7 @@ button {
   justify-content: center;
   margin: 0 auto;
 	width: 300px;
+	transition: all 0.8s ease;
 }
 
 .img-responsive {
@@ -421,7 +422,7 @@ button {
 /*--------- media queries --------------*/
 
 @media screen and (min-width: 576px) {
-  .container { width: 768px;}
+  .container { width: 576px;}
 }
 
 @media screen and (min-width: 768px) {
@@ -429,9 +430,9 @@ button {
 }
 
 @media screen and (min-width: 960px) {
-  .container { width: 960px;}
+  .container { width: 768px;}
 }
 
 @media screen and (min-width: 1200px) {
-  .container { width: 960px;}
+  .container { width: 1000px;}
 }
